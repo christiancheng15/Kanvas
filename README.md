@@ -29,5 +29,15 @@ cd kanvas
     - `python aio.py` (with monitoring)
     - `python bot.py` (without monitoring)
 
-## Like this project?
+## Obtaining Tokens
+
+1. Navigate to your Canvas instance and log in.
+2. Open Developer Tools in your browser (usually by pressing F12 or right-clicking and selecting "Inspect").
+3. In Developer Tools, go to the "Network" tab.
+4. Reload the Canvas page to capture network requests.
+5. Look for a network request (usually the first one) and click on it to view details.
+6. In the request headers, find `_csrf_token` and `canvas_session`, under "Cookie" in "Request Headers"
+7. Copy the values of `_csrf_token` and `canvas_session` for use in the scripts
+
+## Like this project? 
 If you find this project helpful or interesting, please consider starring it on GitHub and following [me](https://github.com/christiancheng15) for updates!
