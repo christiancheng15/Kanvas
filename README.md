@@ -4,7 +4,7 @@ Kanvas is a Python script designed to automate joining and leaving groups in Can
 
 ## Features
 
-- Automatic monitoring, joining, and leaving of groups in Canvas automatically.
+- Automatic monitoring, joining, and leaving of groups in Canvas.
 - Utilizes Canvas API for group operations.
 - Uses thread pool for concurrent group operations.
 
